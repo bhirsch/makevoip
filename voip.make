@@ -33,10 +33,17 @@ projects[] = filefield
 projects[] = imagefield
 projects[] = imageapi
 projects[] = imagecache
-projects[] = features
+projects[] = diff
 projects[] = context
 projects[] = swftools
 projects[] = services
+
+; Features
+; ---------
+; Version 1.0 doesn't seem to revert overrides.
+; Use an olde version. (BH 8/31/10)
+projects[features] = 1.0-beta6
+projects[features][version] = 1.0-beta6
 
 ; Voip Drupal
 ; -----------
