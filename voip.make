@@ -22,6 +22,7 @@ projects[drupal][download][type] = "get"
 ; --------
 ; Required contributed modules outside the Voip Drupal project. 
 
+projects[] = advanced_help
 projects[] = cck
 projects[] = views
 projects[] = token
@@ -36,7 +37,6 @@ projects[] = features
 projects[] = context
 projects[] = swftools
 projects[] = services
-;;projects[] = 
 
 ; Voip Drupal
 ; -----------
@@ -44,16 +44,19 @@ projects[] = services
 
 ; Clone projects from github.
 ; Voip
-projects[voip][type] = module
-projects[voip][download][type] = git
-projects[voip][download][url] = git://github.com/leoburd/voip.git
+projects[voip][type] = "module"
+projects[voip][download][type] = "git"
+projects[voip][download][url] = "git://github.com/leoburd/voip.git"
+projects[voip][download][tag] = "6.x-0.2"
 
 ; Call Blast
-projects[callblast][type] = module
-projects[callblast][download][type] = git
-projects[callblast][download][url] = git://github.com/leoburd/callblast.git
+projects[callblast][type] = "module"
+projects[callblast][download][type] = "git"
+projects[callblast][download][url] = "git://github.com/bhirsch/callblast.git"
+projects[callblast][download][tag] = "6.x-0.0"
 
 ; Voip Set-Up
-projects[voipsetup][type] = module
-projects[voipsetup][download][type] = git
-projects[voipsetup][download][url] = git://github.com/bhirsch/voipsetup.git
+projects[voipsetup][type] = "module"
+projects[voipsetup][download][type] = "git"
+projects[voipsetup][download][url] = "git://github.com/bhirsch/voipsetup.git"
+projects[voipsetup][download][tag] = "6.x-0.0"
