@@ -60,7 +60,7 @@ projects[voip][download][tag] = "6.x-0.2"
 projects[callblast][type] = "module"
 projects[callblast][download][type] = "git"
 projects[callblast][download][url] = "git://github.com/bhirsch/callblast.git"
-projects[callblast][download][tag] = "6.x-0.0"
+projects[callblast][download][tag] = "6.x-0.1"
 
 ; Voip Set-Up
 projects[voipsetup][type] = "module"
