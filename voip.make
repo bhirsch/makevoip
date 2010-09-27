@@ -37,13 +37,7 @@ projects[] = diff
 projects[] = context
 projects[] = swftools
 projects[] = services
-
-; Features
-; ---------
-; Version 1.0 doesn't seem to revert overrides.
-; Use an olde version. (BH 8/31/10)
-projects[features] = 1.0-beta6
-projects[features][version] = 1.0-beta6
+projects[] = features
 
 ; Voip Drupal
 ; -----------
@@ -54,13 +48,13 @@ projects[features][version] = 1.0-beta6
 projects[voip][type] = "module"
 projects[voip][download][type] = "git"
 projects[voip][download][url] = "git://github.com/leoburd/voip.git"
-projects[voip][download][tag] = "6.x-0.2"
+projects[voip][download][tag] = "6.x-0.3"
 
 ; Call Blast
 projects[callblast][type] = "module"
 projects[callblast][download][type] = "git"
-projects[callblast][download][url] = "git://github.com/bhirsch/callblast.git"
-projects[callblast][download][tag] = "6.x-0.1"
+projects[callblast][download][url] = "git://github.com/starswithstripes/callblast.git"
+projects[callblast][download][tag] = "6.x-0.2-alpha1"
 
 ; Voip Set-Up
 projects[voipsetup][type] = "module"
