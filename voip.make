@@ -53,8 +53,8 @@ projects[voip][download][tag] = "6.x-0.3"
 ; Call Blast
 projects[callblast][type] = "module"
 projects[callblast][download][type] = "git"
-projects[callblast][download][url] = "git://github.com/starswithstripes/callblast.git"
-projects[callblast][download][tag] = "6.x-0.2-alpha1"
+projects[callblast][download][url] = "git://github.com/leoburd/callblast.git"
+projects[callblast][download][tag] = "6.x-0.2"
 
 ; Voip Set-Up
 projects[voipsetup][type] = "module"
