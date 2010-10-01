@@ -4,6 +4,8 @@ name = "Voip Drupal"
 
 core = 6.x
 
+api = 2
+
 ; Use pressflow instead of Drupal core:
 ; projects[pressflow][type] = "core"
 projects[drupal][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92/+download/pressflow-6.19.92.tar.gz"
