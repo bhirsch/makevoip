@@ -7,9 +7,9 @@ core = 6.x
 api = 2
 
 ; Use pressflow instead of Drupal core:
-; projects[pressflow][type] = "core"
-projects[drupal][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92/+download/pressflow-6.19.92.tar.gz"
-projects[drupal][download][type] = "get"
+projects[pressflow][type] = "core"
+projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92/+download/pressflow-6.19.92.tar.gz"
+projects[pressflow][download][type] = "get"
 
 ; CVS checkout of Drupal 6.x core:
 ; projects[drupal][type] = "core"
@@ -50,7 +50,7 @@ projects[] = features
 projects[voip][type] = "module"
 projects[voip][download][type] = "git"
 projects[voip][download][url] = "git://github.com/leoburd/voip.git"
-projects[voip][download][tag] = "6.x-0.3"
+projects[voip][download][tag] = "6.x-0.4"
 
 ; Call Blast
 projects[callblast][type] = "module"
