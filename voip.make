@@ -27,6 +27,7 @@ projects[pressflow][download][type] = "get"
 projects[] = advanced_help
 projects[] = cck
 projects[] = views
+projects[] = views_bonus
 projects[] = token
 projects[] = ctools
 projects[] = date
